@@ -1,0 +1,32 @@
+# -------------------------
+# Core API
+# -------------------------
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+
+# -------------------------
+# LangChain 0.3.x stack (LOCKED)
+# -------------------------
+langchain==0.3.16
+langchain-core>=0.3.32,<0.4.0
+langchain-community==0.3.16
+langchain-text-splitters>=0.3.5,<0.4.0
+langchain-experimental>=0.3.3,<0.4.0
+
+# -------------------------
+# LLM Providers
+# -------------------------
+langchain-google-genai>=2.1.0,<3.0.0
+langchain-openai>=0.3.35,<0.4.0
+
+# -------------------------
+# Vector DB & Embeddings
+# -------------------------
+chromadb==0.4.22
+sentence-transformers==2.7.0
+
+# -------------------------
+# Configuration
+# -------------------------
+pydantic-settings>=2.4.0,<3.0.0
+python-dotenv==1.0.0
