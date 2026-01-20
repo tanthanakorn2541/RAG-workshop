@@ -1,0 +1,113 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.env/
+.conda/
+conda-env/
+
+# =========================
+# Conda
+# =========================
+conda-meta/
+*.conda
+*.condarc
+
+# =========================
+# Environment variables
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# FastAPI / Uvicorn
+# =========================
+*.log
+logs/
+uvicorn.log
+
+# =========================
+# LangChain / LLM
+# =========================
+.langchain/
+.langsmith/
+langsmith.db
+
+# =========================
+# Vector DB (Chroma)
+# =========================
+chroma/
+chromadb/
+*.sqlite3
+
+# =========================
+# Model / Cache
+# =========================
+.cache/
+.cache/**
+.huggingface/
+.hf/
+torch_cache/
+*.pt
+*.bin
+*.safetensors
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# OS
+# =========================
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+
+# Linux
+*~
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+*.iml
+
+# =========================
+# Build / Distribution
+# =========================
+build/
+dist/
+*.whl
+
+# =========================
+# Tests / Coverage
+# =========================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# =========================
+# Misc
+# =========================
+*.tmp
+*.bak
+*.swp
